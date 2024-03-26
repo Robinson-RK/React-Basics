@@ -1,0 +1,42 @@
+.student-list {
+    font-family: Arial, sans-serif;
+    width: 800px; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #636363; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+    box-sizing: border-box;
+  }
+  
+  .student-list h2 {
+    font-size: 28px;
+    color: #000000;
+  }
+  
+  .student-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .student-list li {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .student-list li:hover {
+    transform: translateY(-5px);
+  }
+  
+  .student-list strong {
+    font-weight: bold;
+  }
+  
+  .student-list br {
+    line-height: 1.5;
+  }
+  
